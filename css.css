@@ -1,16 +1,11 @@
-.text {
-    color: black
-}
-
-.text.small {
+body {
     font-family: 'Roboto Flex', sans-serif;
-    font-weight: 200;
+    font-weight: 250;
     font-size: 1em;
     line-height: 1.7;
     color: black;
 }
-
-.text.large {
+.large {
     font-family: 'Roboto Flex', sans-serif;
     font-weight: 430;
     font-size: 1.7em;
