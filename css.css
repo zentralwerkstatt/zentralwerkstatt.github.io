@@ -1,16 +1,47 @@
-.text-small {
-    font-family: 'Poppins', sans-serif;
+.text {
+    color: black
+}
+
+.text.small {
+    font-family: 'Roboto Flex', sans-serif;
     font-weight: 200;
-    line-height: 1.9;
-    font-size: 0.9em;
+    font-size: 1em;
+    line-height: 1.7;
     color: black;
 }
 
-.text-small-dense {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 200;
-    line-height: 1;
-    font-size: 0.9em;
+.text.large {
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 430;
+    font-size: 1.7em;
+    line-height: 1.4;
+    color: black;
+}
+
+h1 {
+    display: inline;
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 600;
+    font-size: 2.2em;
+    line-height: 1.5;
+    color: black;
+}
+
+h2 {
+    display: inline;
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 430;
+    font-size: 2.2em;
+    line-height: 1.5;
+    color: black;
+}
+
+h3 {
+    display: inline;
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 430;
+    font-size: 1.7em;
+    line-height: 1.4;
     color: black;
 }
 
@@ -22,33 +53,7 @@ a {
     color: black;
 }
 
-h1 {
-    font-family: 'Roboto Flex', sans-serif;
-    line-height: 1.5;
-    font-size: 2.2em;
-    font-weight: 430;
-    color: black;
-}
-
-.text-large {
-    font-family: 'Roboto Flex', sans-serif;
-    line-height: 1.4;
-    font-size: 1.7em;
-    font-weight: 430;
-    color: black;
-}
-
-.text-large-hl {
-    font-family: 'Roboto Flex', sans-serif;
-    line-height: 1.4;
-    font-size: 1.7em;
-    font-weight: 430;
-    color: black;
-    border-bottom: 6px double;
-    border-color: yellow;
-}
-
-.text-large-hl a {
+h1 a,h3 a {
     text-decoration: unset;
   }
 
