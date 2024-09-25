@@ -1,15 +1,10 @@
-### Monographs
-
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |  |
 | :---- | :---- |
+| | <p class="large">Monographs<p> |
 | 2025 | Offert, F. and Impett, L. *Machine Visual Culture*. Meson Press/University of Minnesota Press (forthcoming) \[OA\] |
 | 2020 | Offert, F. [*Critical Machine Vision. Epistemology and Aesthetics of Deep CNNs*](https://www.proquest.com/docview/2404283034). Dissertation. University of California, Santa Barbara |
 | &nbsp; |  |
-
-### Peer Reviewed
-
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |  |
-| :---- | :---- |
+| | <p class="large">Peer Reviewed<p> |
 | 2024 | Offert, F. & Bell, P. “imgs.ai. A Multimodal Search Engine for Digital Art History.” *International Journal for Digital Art History* (forthcoming) \[OA\] |
 |  | Offert, F. & Phan, T. “A Sign That Spells: Machinic Concepts and the Racial Politics of Generative AI.” *Journal of Digital Social Research* (forthcoming) \[[preprint](https://arxiv.org/abs/2211.06323)\] |
 |  | Offert, F., Kim, P. & Cai, Q. “Synthesizing Proteins on the Graphics Card. Protein Folding and the Limits of Critical AI Studies.” AI & Society (forthcoming) \[[preprint](https://arxiv.org/abs/2405.09788)\] |
@@ -26,11 +21,7 @@
 | 2017 | Offert, F. “‘[I know it when I see it’. Visualization and Intuitive Interpretability](https://arxiv.org/abs/1711.08042). *Proceedings of the NeurIPS Symposium on Interpretable Machine Learning* \[OA\] |
 | 2015 | Offert, F. “[Conceptual Superposition. The Aesthetics of Quantum Simulation](https://dl.acm.org/doi/10.1145/2835641.2835643).” *SIGGRAPH Asia 2015 Art Papers* |
 | &nbsp; |  |
-
-### Book Chapters
-
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |  |
-| :---- | :---- |
+| | <p class="large">Book Chapters<p> |
 | 2025 | Offert, F. “Are Nearest Neighbors Good Neighbors?” In: Somaini, A. (ed.). *The World through IA*. Jeu de Paume (forthcoming) |
 |  | Offert, F. “Postdigital Artificial Intelligence.” In: Gerlach, N. & Vagts, S. (ed.). *Postdigital Painting*. Reimer (forthcoming) |
 | 2024 | Offert, F. “Five Theses on the End of AI Art.” In: Scherffig, L. (ed). *(Un-)learn AI – Approaching AI in Aesthetic Practices* (forthcoming) \[[preprint](https://zentralwerkstatt.org/s/ai_art.pdf)\] |
@@ -46,11 +37,7 @@
 |  | Offert, F. “Beyond the Scenes. Sasha Waltz's Objects and Installations Between Theater and the Visual Arts.” In: Weibel, P., Waltz, Y. & Riedel, C. (eds). *Sasha Waltz. Installations, Objects, Performances*. Hatje-Cantz |
 | 2014 | Offert, F. “Jonas Mekas on Video.” In: Offert, F. (ed.) [*Jonas Mekas: 365 Day Project*](https://zentralwerkstatt.org/s/mekas.pdf). Karlsruhe: ZKM Center for Art and Media \[OA\] |
 | &nbsp; |  |
-
-### Public Humanities
-
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |  |
-| :---- | :---- |
+| | <p class="large">Public Humanities<p> |
 | 2024 | Offert, F. & Raley, R. “[Critical Machine Learning Studies: An Interview with Fabian Offert and Rita Raley](https://uchri.org/foundry/critical-machine-learning-studies-an-interview-with-fabian-offert-and-rita-raley/).” Interview for *UCHRI Foundry* |
 | 2023 | Tasoff, H. “[The Mind of the Machine](https://news.ucsb.edu/2023/021252/mind-machine).” Interview for *UCSB Current* |
 |  | Klusik-Eckert, J. “[AI Art und die Kunstgeschichte](https://www.arthistoricum.net/themen/podcasts/arthistocast/beitrag?tx_news_pi1%5Bday%5D=03&tx_news_pi1%5Bmonth%5D=10&tx_news_pi1%5Bnews%5D=20126&tx_news_pi1%5Byear%5D=2023&cHash=755edbe6eb9c5b22c82187f40346968d).” Interview for *\#arthistoCast* |
@@ -66,14 +53,9 @@
 | 2017 | Offert, F. “[Intuition and Epistemology of High-Dimensional Vector Space](https://zentralwerkstatt.org/blog/vsm).” *zentralwerkstatt.org* |
 |  | Offert, F. “[A Syllogism in Turing’s 1950 Paper](https://zentralwerkstatt.org/blog/turing).” *zentralwerkstatt.org* |
 | &nbsp; |  |
-
-### Editorial Activity
-
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |  |
-| :---- | :---- |
+| | <p class="large">Editorial Activity<p> |
 | 2023 | Ries, T., van Dalen-Oskam, K., & Offert, F. (eds.) [*Reproducibility and Explainability in the Digital Humanities*](https://link.springer.com/collections/becggdhbad). *International Journal of Digital Humanities* Special Issue \[OA\] |
 | 2021 | Offert, F., Klammt, A., Dieckmann, L., Röwenstrunk, D. & Effinger, M. (eds.) [*Construction Kit: Review Journal for Research Tools and Data Services*](https://journals.ub.uni-heidelberg.de/index.php/ckit/index) \[OA\] |
 | 2019 | Offert, F. & Hirsch, M. (eds.) [*M.A.D.E.*](https://show.mat.ucsb.edu/2019/images/MADE_2019_brochure.pdf) University of California, Santa Barbara \[OA\] |
 | 2015 | Offert F. & Escalante, J.M. (eds). [*Open Sources*](https://zentralwerkstatt.org/s/open_sources.pdf). University of California, Santa Barbara \[OA\] |
 | 2014 | Offert, F. (ed.) [*Jonas Mekas: 365 Day Project*](https://zentralwerkstatt.org/s/mekas.pdf). Karlsruhe: ZKM Center for Art and Media \[OA\] |
-| &nbsp; |  |
