@@ -21,22 +21,34 @@
                 <h1><a href="index.html">FABIAN OFFERT</a></h1>
             </div>
             <div class="col text-end">
-                <span>
-                    <a href="/page.html?page=book">Book</a>&nbsp;
-                    <a href="/page.html?page=publications">Publications</a>&nbsp;
-                    <a href="/page.html?page=lectures">Lectures</a>&nbsp;
-                    <a href="https://github.com/zentralwerkstatt/">Github</a>&nbsp;
-                    <a href="https://scholar.google.com/citations?user=_OeJ75EAAAAJ">Google Scholar</a>&nbsp;
-                    <a href="/cv.pdf">Curiculum Vitae</a>
-                </span>
+                <button class="hamburger-menu btn btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#collapse" aria-controls="collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/>
+                        </svg>
+                    </span>
+                </button>
+                <div class="collapse" id="collapse">
+                    <div class="p-3">
+                        <ul class="list-unstyled">
+                            <li><h2><a href="/index.html">Home</a></h2></li>
+                            <li><h2><a href="/page.html?page=book">Book</a></h2></li>
+                            <li><h2><a href="/page.html?page=publications">Publications</a></h2></li>
+                            <li><h2><a href="/page.html?page=lectures">Lectures</a></h2></li>
+                            <li><h2><a href="https://github.com/zentralwerkstatt/">Github</a></h2></li>
+                            <li><h2><a href="https://scholar.google.com/citations?user=_OeJ75EAAAAJ">Google Scholar</a></h2></li>
+                            <li><h2><a href="/cv.pdf">Curiculum Vitae</a></h2></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
         
-        <div class="row mt-5 px-3 gx-3"></div>
-
+        <hr>
+        
         <div class="row mt-5 px-3 gx-5">
             <div class="col-lg-8 col-md-12">
-                <div id="content"></div>
+                <div id="content" class="md"></div>
             </div>   
         </div>
 
