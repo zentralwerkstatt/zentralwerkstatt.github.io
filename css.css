@@ -17,7 +17,10 @@ p.large {
 }
 
 a {
-    text-decoration: underline 1px double yellow;
+    text-decoration: underline ;
+    text-decoration-color: yellow;
+    text-decoration-thickness: 1px;
+    text-decoration-style: double;
     text-underline-offset: 5px;
     color: black;
 }
