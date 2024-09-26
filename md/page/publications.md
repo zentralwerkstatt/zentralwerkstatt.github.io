@@ -24,8 +24,8 @@
 | | <p class="large">Book Chapters<p> |
 | 2025 | Offert, F. “Are Nearest Neighbors Good Neighbors?” In: Somaini, A. (ed.). *The World through IA*. Jeu de Paume (forthcoming) |
 |  | Offert, F. “Postdigital Artificial Intelligence.” In: Gerlach, N. & Vagts, S. (ed.). *Postdigital Painting*. Reimer (forthcoming) |
-| 2024 | Offert, F. “Five Theses on the End of AI Art.” In: Scherffig, L. (ed). *(Un-)learn AI – Approaching AI in Aesthetic Practices* (forthcoming) \[[preprint](https://zentralwerkstatt.org/s/ai_art.pdf)\] |
-|  | Offert, F. “On the Concept of History in Foundation Models.” In: Bajohr, H. (ed). *Thinking With AI*. Open Humanities Press (forthcoming) \[[preprint](https://zentralwerkstatt.org/s/history.pdf)\] |
+| 2024 | Offert, F. “Five Theses on the End of AI Art.” In: Scherffig, L. (ed). *(Un-)learn AI – Approaching AI in Aesthetic Practices* (forthcoming) \[[preprint](https://zentralwerkstatt.org/files/ai_art.pdf)\] |
+|  | Offert, F. “On the Concept of History in Foundation Models.” In: Bajohr, H. (ed). *Thinking With AI*. Open Humanities Press (forthcoming) \[[preprint](https://zentralwerkstatt.org/files/history.pdf)\] |
 |  | Offert, F. & Bell, P. “Manufacturing Visual Continuity. Generative Methods in the Digital Humanities.” In: Johnson, J.M., Mimno, D. & Tilton, L. (eds). *Debates in the Digital Humanities: Computational Humanities*. University of Minnesota Press |
 |  | Offert, F. “[Maschineninterpretation mit Interpretationsmaschinen. Explainable Artificial Intelligence als bildgebendes Verfahren und bildwissenschaftliches Problem](https://www.degruyter.com/document/doi/10.1515/9783111085692-010/html).” *Bildwelten des Wissens* 19 \[OA\] |
 |  | Offert, F. “[KI-basierte Verfahren in der bildenden Kunst](https://www.degruyter.com/document/doi/10.1515/9783110656978-012/html).” In: Catani S. & Pfeiffer J. (eds). *De Gruyter Handbuch KI und die Künste* |
@@ -33,9 +33,9 @@
 |  | Offert, F. “[KI-Kunst als Skulptur](https://www.transcript-verlag.de/978-3-8376-6660-1/ki-realitaeten/?number=978-3-8376-6660-1).” In: Groß R. & Jordan R. (eds). KI-Realitäten. Modelle, Praktiken und Topologien des Maschinellen Lernens. transcript \[OA\] |
 | 2019 | Offert, F. “Hands on Circuits. Preserving the Semantic Surplus of Circuit-Level Functionality with Programmable Logic Devices.” In: Ellis, J. & Hall, N. (eds). [*Hands On Media History. A New Methodology in the Humanities and Social Sciences*](https://www.adapttvhistory.org.uk/wp-content/uploads/2020/07/HandsOnMediaHistoryGOLD.pdf)*.* Routledge \[OA\] |
 |  | Offert, F. “Exhibiting AI Art.” In: Offert, F. & Hirsch, M. (eds.) [*M.A.D.E.*](https://show.mat.ucsb.edu/2019/images/MADE_2019_brochure.pdf) University of California, Santa Barbara |
-| 2015 | Offert, F. “The Poetic Algorithm or What Happened to Software Art?” In Offert F. & Escalante, J.M. (eds). [*Open Sources*](https://zentralwerkstatt.org/s/open_sources.pdf). University of California, Santa Barbara \[OA\] |
+| 2015 | Offert, F. “The Poetic Algorithm or What Happened to Software Art?” In Offert F. & Escalante, J.M. (eds). [*Open Sources*](https://zentralwerkstatt.org/files/open_sources.pdf). University of California, Santa Barbara \[OA\] |
 |  | Offert, F. “Beyond the Scenes. Sasha Waltz's Objects and Installations Between Theater and the Visual Arts.” In: Weibel, P., Waltz, Y. & Riedel, C. (eds). *Sasha Waltz. Installations, Objects, Performances*. Hatje-Cantz |
-| 2014 | Offert, F. “Jonas Mekas on Video.” In: Offert, F. (ed.) [*Jonas Mekas: 365 Day Project*](https://zentralwerkstatt.org/s/mekas.pdf). Karlsruhe: ZKM Center for Art and Media \[OA\] |
+| 2014 | Offert, F. “Jonas Mekas on Video.” In: Offert, F. (ed.) [*Jonas Mekas: 365 Day Project*](https://zentralwerkstatt.org/files/mekas.pdf). Karlsruhe: ZKM Center for Art and Media \[OA\] |
 | &nbsp; |  |
 | | <p class="large">Public Humanities<p> |
 | 2024 | Offert, F. & Raley, R. “[Critical Machine Learning Studies: An Interview with Fabian Offert and Rita Raley](https://uchri.org/foundry/critical-machine-learning-studies-an-interview-with-fabian-offert-and-rita-raley/).” Interview for *UCHRI Foundry* |
@@ -57,5 +57,5 @@
 | 2023 | Ries, T., van Dalen-Oskam, K., & Offert, F. (eds.) [*Reproducibility and Explainability in the Digital Humanities*](https://link.springer.com/collections/becggdhbad). *International Journal of Digital Humanities* Special Issue \[OA\] |
 | 2021 | Offert, F., Klammt, A., Dieckmann, L., Röwenstrunk, D. & Effinger, M. (eds.) [*Construction Kit: Review Journal for Research Tools and Data Services*](https://journals.ub.uni-heidelberg.de/index.php/ckit/index) \[OA\] |
 | 2019 | Offert, F. & Hirsch, M. (eds.) [*M.A.D.E.*](https://show.mat.ucsb.edu/2019/images/MADE_2019_brochure.pdf) University of California, Santa Barbara \[OA\] |
-| 2015 | Offert F. & Escalante, J.M. (eds). [*Open Sources*](https://zentralwerkstatt.org/s/open_sources.pdf). University of California, Santa Barbara \[OA\] |
-| 2014 | Offert, F. (ed.) [*Jonas Mekas: 365 Day Project*](https://zentralwerkstatt.org/s/mekas.pdf). Karlsruhe: ZKM Center for Art and Media \[OA\] |
+| 2015 | Offert F. & Escalante, J.M. (eds). [*Open Sources*](https://zentralwerkstatt.org/files/open_sources.pdf). University of California, Santa Barbara \[OA\] |
+| 2014 | Offert, F. (ed.) [*Jonas Mekas: 365 Day Project*](https://zentralwerkstatt.org/files/mekas.pdf). Karlsruhe: ZKM Center for Art and Media \[OA\] |
