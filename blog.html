@@ -27,13 +27,11 @@
                 <h1><a href="index.html">FABIAN OFFERT</a></h1>
             </div>
             <div class="col text-end">
-                <button class="hamburger-menu btn btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#collapse" aria-controls="collapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/>
-                        </svg>
-                    </span>
-                </button>
+                <a href="" class="navbar-toggler-icon giant" data-bs-toggle="collapse" data-bs-target="#collapse" aria-controls="collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/>
+                    </svg>
+                </a>
                 <div class="collapse" id="collapse">
                     <ul class="list-unstyled">
                         <li><h2 class="nb"><a href="/index.html">Home</a></h2></li>
@@ -53,23 +51,27 @@
 
         <div class="row mt-5 gx-3">
             <div class="col-lg-7 col-md-12">
+                <div class="mb-3">
+                    <a href="" data-bs-toggle="collapse" data-bs-target="#posts" aria-controls="collapse" aria-expanded="false" aria-label="Toggle navigation"><p>All Posts</p>
+                    </a>
+                </div>
+                <div class="collapse" id="posts">
+                    <ul class="list-unstyled">
+                        <li><h2 class="nb"><a href="https://zentralwerkstatt.squarespace.com/blog/on-the-emergence-of-general-computation-from-artificial-intelligence">On the Emergence of General Computation from Artificial Intelligence</a></h2></li>
+                        <li><h2 class="nb"><a href="https://zentralwerkstatt.squarespace.com/blog/ten-years-of-image-synthesis">Ten Years of Image Synthesis</a></h2></li>
+                        <li><h2 class="nb"><a href="https://zentralwerkstatt.squarespace.com/blog/pulse">There Is No (Real Life) Use Case for Face Super Resolution</a></h2></li>
+                        <li><h2 class="nb"><a href="/blog.html?q=theater">What Could an Artificial Intelligence Theater Be?</a></h2></li>
+                        <li><h2 class="nb"><a href="https://zentralwerkstatt.squarespace.com/blog/latent">Embrace the Latent Space. Notes on the Curatorial Challenges of an Emerging Media Art Form</a></h2></li>
+                        <li><h2 class="nb"><a href="/blog.html?q=turing">A Syllogism in Turing's 1950 Paper</a></h2></li>
+                        <li><h2 class="nb"><a href="https://zentralwerkstatt.squarespace.com/blog/vsm">Intuition and Epistemology of High-Dimensional Vector Space</a></h2></li>
+                    </ul>
+                </div>  
                 <div id="content" class="blog"></div>
             </div>
+            
             <div class="col-lg-2 d-none d-lg-block"></div>
             <div class="col-lg-3 d-none d-lg-block text-end">
-                <button class="hamburger-menu btn btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-controls="collapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/>
-                        </svg>
-                    </span>
-                </button>
-                <div class="collapse" id="collapse2">
-                    <ul class="list-unstyled">
-                        <li><h2 class="nb"><a href="/blog.html?q=theater">What Could an Artificial Intelligence Theater Be?</a></h2></li>
-                        <li><h2 class="nb"><a href="/blog.html?q=turing">A Syllogism in Turing's 1950 Paper</a></h2></li>
-                        <li><h2 class="nb"><a href="https://zentralwerkstatt.squarespace.com/blog">Older posts</a></h2></li>
-                    </ul>
+
             </div>     
         </div>
 

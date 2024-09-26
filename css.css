@@ -51,6 +51,10 @@ h2, h3, h4 {
     margin-bottom: 2em;
 }
 
+.giant {
+    font-size: 1.6em;
+}
+
 /* List-type sites, Google Docs -> Markdown */
 .page table {
     border-collapse: separate; 

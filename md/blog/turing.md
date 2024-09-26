@@ -1,5 +1,7 @@
 # A Syllogism in Turing's 1950 Paper
 
+by Fabian Offert ● Apr 12, 2019.<br> 
+
 Scott Aaronsen famously maintains that "one can divide everything that's been said about artificial intelligence into two categories: the 70% that's somewhere in Turing's paper from 1950, and the 30% that's emerged from a half-century of research since then"[^1], and I very much agree with this sentiment. Among the many fascinating and clairvoyant arguments of the paper is a refutation of what Turing calls the "argument from informality of behavior". Turing writes:
 
 > It is not possible to produce a set of rules purporting to describe what a man should do in every conceivable set of circumstances. One might for instance have a rule that one is to stop when one sees a red traffic light, and to go if one sees a green one, but what if by some fault both appear together? One may perhaps decide that it is safest to stop. But some further difficulty may well arise from this decision later. To attempt to provide rules of conduct to cover every eventuality, even those arising from traffic lights, appears to be impossible. With all this I agree. From this it is argued that we cannot be machines. I shall try to reproduce the argument, but I fear I shall hardly do it justice. It seems to run something like this. 'If each man had a definite set of rules of conduct by which he regulated his life he would be no better than a machine. But there are no such rules, so men cannot be machines.' The undistributed middle is glaring."[^2]
