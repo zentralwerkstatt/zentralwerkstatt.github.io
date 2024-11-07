@@ -16,6 +16,12 @@ p.large {
     line-height: 1.4;
 }
 
+p.small {
+    font-weight: 250;
+    font-size: 0.8em;
+    line-height: 1.7;
+}
+
 a {
     text-decoration: underline ;
     text-decoration-color: yellow;
