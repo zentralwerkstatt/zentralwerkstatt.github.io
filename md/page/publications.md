@@ -1,7 +1,7 @@
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |  |
 | :---- | :---- |
 | | <p class="large">Monographs<p> |
-| 2025 | Offert, F. and Impett, L. *Machine Visual Culture*. Meson Press/University of Minnesota Press (forthcoming) \[OA\] |
+| 2025 | Offert, F. and Impett, L. *Vector Media*. Meson Press/University of Minnesota Press (forthcoming) \[OA\] |
 | 2020 | Offert, F. [*Critical Machine Vision. Epistemology and Aesthetics of Deep CNNs*](https://www.proquest.com/docview/2404283034). Dissertation. University of California, Santa Barbara |
 | &nbsp; |  |
 | | <p class="large">Journal Articles<p> |
