@@ -16,10 +16,10 @@
 | 2019 | Offert, F. “Images of Image Machines. Theory and Practice of Interpretable Machine Learning for the Digital Humanities.” Workshop at the European Summer University in Digital Humanities, Leipzig |
 | &nbsp; |  |
 | | <p class="large">Invited Talks<p> |
-| 2025 | Artificial Intelligence, Artificial History (keynote), Bielefeld University (upcoming) |
-| 2024 | Are some things (still) unrepresentable?, Dartmouth College (upcoming) |
-|  | Are some things (still) unrepresentable? (keynote), University of Southern Denmark (upcoming) |
-|  | Postdigital Artificial Intelligence, Kunsthalle Bielefeld |
+| 2025 | The Method of Critical AI Studies (keynote), Bielefeld University |
+|  | Vector Media, Dartmouth College (upcoming) |
+|  | Machine Visual Culture (keynote), University of Southern Denmark (upcoming) |
+| 2024 | Postdigital Artificial Intelligence, Kunsthalle Bielefeld |
 |  | “This Is Your Brain on ImageNet”: Embedding and Visual Epistemology, HfG Offenbach |
 |  | Machine Visual Culture, Stockholm City Museum |
 |  | Machine Visual Culture, Institut national de l'histoire d’art, Paris |
