@@ -5,7 +5,7 @@
 | 2020 | Offert, F. [*Critical Machine Vision. Epistemology and Aesthetics of Deep CNNs*](https://www.proquest.com/docview/2404283034). Dissertation. University of California, Santa Barbara |
 | &nbsp; |  |
 | | <p class="large">Journal Articles<p> |
-| 2025 | Offert, F. & Dhaliwal, Ranjodh Singh. “The Method of Critical AI Studies, A Propaedeutic.” *Big Data & Society* (under review) \[[preprint](https://arxiv.org/abs/2411.18833)\] |
+| 2025 | Offert, F. & Dhaliwal, Ranjodh Singh. “The Method of Critical AI Studies, A Propaedeutic.” \[[preprint](https://arxiv.org/abs/2411.18833)\] |
 | 2024 | Offert, F. & Bell, P. “[imgs.ai. A Multimodal Search Engine for Digital Art History](https://doi.org/10.11588/dahj.2023.9.91295).” *International Journal for Digital Art History* 9 \[OA\] |
 |  | Offert, F. & Phan, T. “[A Sign That Spells: Machinic Concepts and the Racial Politics of Generative AI.](https://publicera.kb.se/jdsr/article/view/40462)” *Journal of Digital Social Research* 6(4) \[OA\] |
 |  | Offert, F., Kim, P. & Cai, Q. “Synthesizing Proteins on the Graphics Card. Protein Folding and the Limits of Critical AI Studies.” *AI & Society* (forthcoming) \[[preprint](https://arxiv.org/abs/2405.09788)\] |

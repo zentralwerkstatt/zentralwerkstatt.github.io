@@ -1,24 +1,6 @@
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |  |
 | :---- | :---- |
-| | <p class="large">Workshops, Panels, and Events<p> |
-| 2024 | Offert, F. & Ries, T. “Integrating Digital Humanities and German Studies – Methods, Theory, Practice.” Seminar at GSA 2024, Atlanta |
-| 2023 | Offert, F. “Computation and the Humanities.” Speaker Series at the UCSB Graduate Center for Literary Research |
-|  | Offert, F. & Phan, T. “The Politics and Aesthetics of Synthetic Media.” Panel Series at 4S 2023, Honolulu |
-|  | Offert, F. “Visual Artificial Intelligence.” Workshop at HSLU Lucerne |
-| 2022 | Offert, F. & Dhaliwal, R.S. “Towards New(er) Criticism: Artificial Intelligence and Literary Dispositions” and “GPGPU: Imaging as General Purpose Computing.” Panel Series at SLSA 2022, Purdue University |
-|  | Offert, F. & Impett, L. “CLIP and Beyond: Multimodal & Explainable Machine Learning in the Digital Humanities.” Panel at DH 2022, Tokyo |
-|  | Offert, F. “Visual Artificial Intelligence.” Workshop at HSLU Lucerne |
-|  | Offert, F. “Visual Artificial Intelligence for the Digital Humanities.” Workshop at the European Summer University in Digital Humanities, Leipzig |
-| 2021 | Offert, F. “Adversarial Examples.” Workshop at the Bundesministerium für Bildung und Forschung/Gesellschaft für Informatik KI-Camp, Berlin |
-| 2020 | Offert, F. “Face Recognition.” Workshop at HfG Karlsruhe |
-|  | Offert, F. “Images as Data. Visual Culture and Machine Learning.” Workshop at Hebrew University of Jerusalem |
-|  | Offert, F. “Adversarial Hacking.” Workshop at transmediale Berlin |
-| 2019 | Offert, F. “Images of Image Machines. Theory and Practice of Interpretable Machine Learning for the Digital Humanities.” Workshop at the European Summer University in Digital Humanities, Leipzig |
-| &nbsp; |  |
 | | <p class="large">Invited Talks<p> |
-| 2025 | The Method of Critical AI Studies (keynote), Bielefeld University |
-|  | Vector Media, Dartmouth College (upcoming) |
-|  | Machine Visual Culture (keynote), University of Southern Denmark (upcoming) |
 | 2024 | Postdigital Artificial Intelligence, Kunsthalle Bielefeld |
 |  | “This Is Your Brain on ImageNet”: Embedding and Visual Epistemology, HfG Offenbach |
 |  | Machine Visual Culture, Stockholm City Museum |
@@ -50,6 +32,21 @@
 |  | Learning Physics with Computers, UC Santa Barbara |
 | 2018 | Notes on the Aesthetics and Epistemology of Interpretable Machine Learning, UC Santa Barbara |
 | 2017 | Notes on the Aesthetics of Artificial Intelligence, EPFL Lausanne |
+| &nbsp; |  |
+| | <p class="large">Workshops, Panels, and Events<p> |
+| 2024 | Offert, F. & Ries, T. “Integrating Digital Humanities and German Studies – Methods, Theory, Practice.” Seminar at GSA 2024, Atlanta |
+| 2023 | Offert, F. “Computation and the Humanities.” Speaker Series at the UCSB Graduate Center for Literary Research |
+|  | Offert, F. & Phan, T. “The Politics and Aesthetics of Synthetic Media.” Panel Series at 4S 2023, Honolulu |
+|  | Offert, F. “Visual Artificial Intelligence.” Workshop at HSLU Lucerne |
+| 2022 | Offert, F. & Dhaliwal, R.S. “Towards New(er) Criticism: Artificial Intelligence and Literary Dispositions” and “GPGPU: Imaging as General Purpose Computing.” Panel Series at SLSA 2022, Purdue University |
+|  | Offert, F. & Impett, L. “CLIP and Beyond: Multimodal & Explainable Machine Learning in the Digital Humanities.” Panel at DH 2022, Tokyo |
+|  | Offert, F. “Visual Artificial Intelligence.” Workshop at HSLU Lucerne |
+|  | Offert, F. “Visual Artificial Intelligence for the Digital Humanities.” Workshop at the European Summer University in Digital Humanities, Leipzig |
+| 2021 | Offert, F. “Adversarial Examples.” Workshop at the Bundesministerium für Bildung und Forschung/Gesellschaft für Informatik KI-Camp, Berlin |
+| 2020 | Offert, F. “Face Recognition.” Workshop at HfG Karlsruhe |
+|  | Offert, F. “Images as Data. Visual Culture and Machine Learning.” Workshop at Hebrew University of Jerusalem |
+|  | Offert, F. “Adversarial Hacking.” Workshop at transmediale Berlin |
+| 2019 | Offert, F. “Images of Image Machines. Theory and Practice of Interpretable Machine Learning for the Digital Humanities.” Workshop at the European Summer University in Digital Humanities, Leipzig |
 | &nbsp; |  |
 | | <p class="large">Conference Talks<p> |
 | 2024 | The Latent Space of the Digital Humanities: Embedded Knowledge and Disciplinary Convergence in the Age of Generative Artificial Intelligence, DH 2024, Washington D.C.  (accepted but not given) |
