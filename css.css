@@ -7,7 +7,7 @@ p, li {
     font-weight: 250;
     font-size: 1em;
     line-height: 1.7;
-    color: black;
+    color: rgb(30,30,30);
 }
 
 p.large {
@@ -30,11 +30,11 @@ p.small {
 
 a {
     text-decoration: underline ;
-    text-decoration-color: yellow;
-    text-decoration-thickness: 1px;
+    text-decoration-color: rgba(255, 255, 0, 0.5);
+    text-decoration-thickness: 2px;
     text-decoration-style: double;
     text-underline-offset: 5px;
-    color: black;
+    color: rgb(30,30,30);
 }
 
 h1 {
@@ -42,7 +42,7 @@ h1 {
     font-weight: 600;
     font-size: 2.2em;
     line-height: 1.4;
-    color: black;
+    color: rgb(30,30,30);
     margin-bottom: 1em;
 }
 
@@ -52,7 +52,7 @@ h2, h3, h4 {
     font-weight: 430;
     font-size: 1.7em;
     line-height: 1.4;
-    color: black;
+    color: rgb(30,30,30);
     margin-bottom: 1em;
 }
 
@@ -82,7 +82,7 @@ h2, h3, h4 {
     font-family: 'Roboto Flex', sans-serif;
     font-weight: 250;
     font-size: 1em;
-    color: black;
+    color: rgb(30,30,30);
     vertical-align: top;
 }
 
@@ -106,7 +106,7 @@ h2, h3, h4 {
     font-weight: 430;
     font-size: 1.7em;
     line-height: 1.4;
-    color: black;
+    color: rgb(30,30,30);
     margin-bottom: 1em;
 }
 
