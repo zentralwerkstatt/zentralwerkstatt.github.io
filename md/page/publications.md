@@ -33,7 +33,7 @@
 | &nbsp; |  |
 | | <p class="large">Book Chapters<p> |
 | 2024 | Offert, F. “[On the Concept of History in Foundation Models](https://www.openhumanitiespress.org/books/titles/thinking-with-ai/).” In: Bajohr, H. (ed). *Thinking With AI*. Open Humanities Press \[OA\] |
-|  | Offert, F. & Bell, P. “Manufacturing Visual Continuity. Generative Methods in the Digital Humanities.” In: Johnson, J.M., Mimno, D. & Tilton, L. (eds). *Debates in the Digital Humanities: Computational Humanities*. University of Minnesota Press |
+|  | Offert, F. & Bell, P. “[Manufacturing Visual Continuity. Generative Methods in the Digital Humanities(https://dhdebates.gc.cuny.edu/read/computational-humanities-5c64bbab-d7ca-41be-8f87-f26117a9a20f/section/1065cca3-ba2e-40fc-a36f-a1bd4a4a6998#ch05).” In: Johnson, J.M., Mimno, D. & Tilton, L. (eds). *Debates in the Digital Humanities: Computational Humanities*. University of Minnesota Press |
 |  | Offert, F. “[Maschineninterpretation mit Interpretationsmaschinen. Explainable Artificial Intelligence als bildgebendes Verfahren und bildwissenschaftliches Problem](https://www.degruyter.com/document/doi/10.1515/9783111085692-010/html).” *Bildwelten des Wissens* 19 \[OA\] |
 |  | Offert, F. “[KI-basierte Verfahren in der bildenden Kunst](https://www.degruyter.com/document/doi/10.1515/9783110656978-012/html).” In: Catani S. (ed). *De Gruyter Handbuch Künstliche Intelligenz und die Künste* |
 | 2023 | Offert, F. “[The Meaning Trap](https://www.degruyter.com/document/doi/10.1515/9783839469088-014).” In: Tuschling, A., Sudmann, A. & Dotzler, B.J. (eds). *ChatGPT und andere “Quatschmaschinen”. Gespräche mit Künstlicher Intelligenz*. transcript \[OA\] |
