@@ -1,89 +1,86 @@
 body {
-    background-color: rgb(250, 250, 250);
-}
-
-p, li {
-    font-family: 'Roboto Flex', sans-serif;
-    font-weight: 250;
-    font-size: 1em;
-    line-height: 1.7;
-    color: rgb(30,30,30);
-}
-
-p.large {
-    font-weight: 430;
-    font-size: 1.5em;
-    line-height: 1.4;
-}
-
-p.medium {
-    font-weight: 300;
+    background-color: #000;
+    mask-image: linear-gradient(0deg, rgba(255, 255, 255, 1), rgba(180, 180, 180, 0.5) 100%), 
+                 linear-gradient(0deg, rgba(100, 100, 100, 1), rgba(0, 0, 0, 0.6) 100%);
+    mask-size: 3px 3px;
+    font-weight: 200;
     font-size: 1.1em;
-    line-height: 1.4;
-}
-
-p.small {
-    font-weight: 250;
-    font-size: 0.8em;
-    line-height: 1.7;
+    line-height: 1.5;
+    text-rendering: optimizeLegibility;
+    font-family: 'Roboto Flex';
+    color: #ffffff;
+    text-shadow: 1px 0px 0px rgba(255, 255, 255, 0.1), 
+                 -1px 0px 1px rgba(255, 255, 255, 1), 
+                 1px 0px 5px rgba(200, 200, 200, 0.4), 
+                 -1px 0px 2px rgba(160, 160, 160, 0.5), 
+                 0 1px 10px rgba(255, 255, 255, 0.6);
 }
 
 a {
-    text-decoration: underline ;
-    text-decoration-color: rgba(255, 255, 0, 0.5);
-    text-decoration-thickness: 2px;
-    text-decoration-style: double;
-    text-underline-offset: 5px;
-    color: rgb(30,30,30);
+    background-color: #000;
+    text-decoration: none;
+    mask-image: linear-gradient(0deg, rgba(0, 255, 128, 1), rgba(0, 200, 64, 0.5) 100%), 
+                 linear-gradient(0deg, rgba(0, 84, 45, 1), rgba(0, 0, 0, 0.6) 100%);
+    mask-size: 3px 3px;
+    font-weight: 200;
+    font-size: 1.1em;
+    line-height: 1.5;
+    text-rendering: optimizeLegibility;
+    font-family: 'Roboto Flex';
+    color: #00ff80;
+    text-shadow: 1px 0px 0px rgba(0, 255, 128, 0.1), 
+                 -1px 0px 1px rgba(0, 255, 128, 1), 
+                 1px 0px 5px rgba(0, 200, 100, 0.4), 
+                 -1px 0px 2px rgba(0, 150, 75, 0.5), 
+                 0 1px 10px rgba(0, 255, 128, 0.7);
+}
+
+.has-caret::after {
+  content: "";
+  display: inline-block;
+  width: 1ch;            
+  height: 1em;             
+  margin-left: 0.1ch;
+  background: currentColor;
+  vertical-align: -0.15em; /* nudge to align with baseline */
+  animation: caret-blink 1s steps(1, end) infinite;
+}
+
+@keyframes caret-blink { 50% { opacity: 0; } }
+
+/* Respect users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .has-caret::after { animation: none; opacity: 1; }
+}
+
+figcaption {
+    font-size: 0.8em;
 }
 
 h1 {
-    font-family: 'Roboto Flex', sans-serif;
-    font-weight: 600;
     font-size: 2.2em;
-    line-height: 1.4;
-    color: rgb(30,30,30);
     margin-bottom: 1em;
 }
 
 /* All headers styled the same except the highest */
 h2, h3, h4 { 
-    font-family: 'Roboto Flex', sans-serif;
-    font-weight: 430;
-    font-size: 1.7em;
-    line-height: 1.4;
-    color: rgb(30,30,30);
+    font-size: 1.4em;
     margin-bottom: 1em;
 }
 
-/* Only used on index */
-.nb {
-    margin-bottom: 0em;
+.menu {
+    margin-bottom: -0.4em; /* Remove from li */
 }
 
-/* Only used on index */
-.bb {
-    margin-bottom: 2em;
-}
-
+/* Only used for big plus */
 .giant {
-    font-size: 1.6em;
+    font-size: 2.0em;
 }
 
 /* List-type sites, Google Docs -> Markdown */
 .page table {
     border-collapse: separate; 
     border-spacing: 0.3em;
-
-}
-
-.page td {
-    line-height: 1.3;
-    font-family: 'Roboto Flex', sans-serif;
-    font-weight: 250;
-    font-size: 1em;
-    color: rgb(30,30,30);
-    vertical-align: top;
 }
 
 /* No space between footnotes */
@@ -96,18 +93,9 @@ h2, h3, h4 {
     display: none;
 }
 
+/* Do not underline return arrow */
 .blog .footnotes a {
     text-decoration: none;
-}
-
-/* Blog h1 is h2-4 */
-.blog h1 {
-    font-family: 'Roboto Flex', sans-serif;
-    font-weight: 430;
-    font-size: 1.7em;
-    line-height: 1.4;
-    color: rgb(30,30,30);
-    margin-bottom: 1em;
 }
 
 /* Crop image if larger than medium viewport */

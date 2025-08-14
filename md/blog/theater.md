@@ -17,7 +17,7 @@ Bertold Brecht has famously proposed to make this discrete nature of theater vis
 
 <figure class="figure my-4">
   <img src="https://static1.squarespace.com/static/52797371e4b0f7d3b5b349c7/527bf87de4b004b622ba068c/527bf883e4b04a4b5511bb08/1426551461999/6993390241_08f3c4ab8a_b.jpg" class="figure-img img-fluid" alt="...">
-  <figcaption class="figure-caption">Robert Wilson's <i>Einstein on the Beach</i> in a 2012 production. The discrete nature of theater is perhaps nowhere as visible as in Wilson's works, where the composition of theatrical elements is made explicit by an intentionally slowed-down time.</figcaption>
+  <figcaption>Robert Wilson's <i>Einstein on the Beach</i> in a 2012 production. The discrete nature of theater is perhaps nowhere as visible as in Wilson's works, where the composition of theatrical elements is made explicit by an intentionally slowed-down time.</figcaption>
 </figure>
 
 There is, however, a big problem with this hypothesis: it ignores one of the main features of theater, the singularity of the performance. It is exactly the fact that performances can not be repeated that makes the medium of theater unique. Performances can not be repeated because theatrical states are often not clearly defined, or even left open completely: things are allowed to happen, consequences are allowed to unfold beyond the direct control of the director or the performers.
@@ -26,7 +26,7 @@ In other words, some theatrical states (or: some more than others) are *probabil
 
 <figure class="figure my-4">
   <img src="https://www.heinergoebbels.com/db/img/std/p100/769_ariette-armella-foto-ruhr-triennale-europeras1-7.jpg" class="figure-img img-fluid" alt="...">
-  <figcaption class="figure-caption">John Cage, <i>Europeras I + II</i>, by Heiner Goebbels, is a "classic" demonstration of probabilistic theatrical states: the order of scenes, and the set of theatrical elements in each scene, is defined by a random process.</figcaption>
+  <p class="small">John Cage, <i>Europeras I + II</i>, by Heiner Goebbels, is a "classic" demonstration of probabilistic theatrical states: the order of scenes, and the set of theatrical elements in each scene, is defined by a random process.</p>
 </figure>
 
 In other words, probabilistic theatrical states connect the "black box" of the performance to the outside world, and let outside influences reign, for the limited duration of that state. It is again Brecht that has proposed this "outside eye" emerging naturally from the medium of theater as a designated effect, a tool of composition. One of the aesthetic functions of theater is to construct a bi-directional relation between the model reality in the black box and the real reality outside of it. If, with Adorno, art is the social antithesis to society,[^5] i.e. if art oscillates between being part of the world and being outside of it, probabilistic theatrical states are exactly an implementation of this function.
@@ -35,7 +35,7 @@ This is where an intersection of theater and machine learning emerges: after all
 
 <figure class="figure my-4">
   <img src="/md/blog/img/anth3.jpg" class="figure-img img-fluid" alt="...">
-  <figcaption class="figure-caption"><i>Anthroposcene</i>, an experimental music theater performance by Laurent Durupt, Jan Rohwedder, and myself. Using a custom machine learning system, debris on stage is transformed into imaginary satellite images that slowly transform into real video images of a weather balloon floating into the night sky outside.</figcaption>
+  <p class="small"><i>Anthroposcene</i>, an experimental music theater performance by Laurent Durupt, Jan Rohwedder, and myself. Using a custom machine learning system, debris on stage is transformed into imaginary satellite images that slowly transform into real video images of a weather balloon floating into the night sky outside.</p>
 </figure>
 
 Importantly, I posit that this commonality can do more than validate the personal trajectories mentioned above: it can inform a "future artificial intelligence theater". An artificial intelligence theater would be a theater that not only uses machine learning for visual effect or to defend its own relevance in the face of hypercapitalism, but a theater that realizes this commonality by employing machine learning in a non-trivial way, in its function as a sense-making tool.
