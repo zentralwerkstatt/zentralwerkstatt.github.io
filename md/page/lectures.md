@@ -1,6 +1,30 @@
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |  |
 | :---- | :---- |
-| | <h2>Invited Talks</h2> |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | <h2>Workshops, Panels, and Events</h2> |
+| 2025 | Offert, F. & Dhaliwal, Ranjodh S. “How to Train Your Mental Model.” Workshop at RMIT Melbourne |
+| 2024 | Offert, F. & Ries, T. “Integrating Digital Humanities and German Studies: Methods, Theory, Practice.” Seminar at GSA 2024, Atlanta |
+| 2023 | Offert, F. & Ries, T. Digital Humanities panel series at GSA 2023, Montréal |
+|  | Offert, F. & Phan, T. “The Politics and Aesthetics of Synthetic Media.” Panel series at 4S 2023, Honolulu |
+|  | Offert, F. “Visual Artificial Intelligence.” Workshop at HSLU Lucerne |
+| 2022 | Offert, F. & Dhaliwal, R.S. “Towards New(er) Criticism: Artificial Intelligence and Literary Dispositions” and “GPGPU: Imaging as General Purpose Computing.” Panel series at SLSA 2022, Purdue University |
+|  | Offert, F. & Impett, L. “CLIP and Beyond: Multimodal & Explainable Machine Learning in the Digital Humanities.” Panel at DH 2022, Tokyo |
+|  | Offert, F. “Visual Artificial Intelligence.” Workshop at HSLU Lucerne |
+|  | Offert, F. “Visual Artificial Intelligence for the Digital Humanities.” Workshop at the European Summer University in Digital Humanities, Leipzig |
+| 2021 | Offert, F. “Adversarial Examples.” Workshop at the Bundesministerium für Bildung und Forschung/Gesellschaft für Informatik KI-Camp, Berlin |
+| 2020 | Offert, F. “Face Recognition.” Workshop at HfG Karlsruhe |
+|  | Offert, F. “Images as Data. Visual Culture and Machine Learning.” Workshop at Hebrew University of Jerusalem |
+|  | Offert, F. “Adversarial Hacking.” Workshop at transmediale Berlin |
+| 2019 | Offert, F. “Images of Image Machines. Theory and Practice of Interpretable Machine Learning for the Digital Humanities.” Workshop at the European Summer University in Digital Humanities, Leipzig |
+| &nbsp; | &nbsp; |
+| &nbsp; | <h2>Invited Talks</h2> |
+| 2025 | The Method of Critical AI Studies (keynote), Bielefeld University |
+|  | Noise Is Dead, AusSTS 2025, Melbourne (keynote) |
+|  | Vector Media, Ca' Foscari University, Venice |
+|  | Vector Media, John Cabot University, Rome |
+|  | Vector Media, Bibliotheca Hertziana – Max Planck Institute for Art History, Rome |
+|  | [Vector Media](https://www.youtube.com/watch?v=xNf7Y5d7t0w), UC Berkeley |
+|  | Vector Media, Dartmouth College |
+|  | Vector Media, University of Southern Denmark |
 | 2024 | Postdigital Artificial Intelligence, Kunsthalle Bielefeld |
 |  | “This Is Your Brain on ImageNet”: Embedding and Visual Epistemology, HfG Offenbach |
 |  | Machine Visual Culture, Stockholm City Museum |
@@ -32,24 +56,10 @@
 |  | Learning Physics with Computers, UC Santa Barbara |
 | 2018 | Notes on the Aesthetics and Epistemology of Interpretable Machine Learning, UC Santa Barbara |
 | 2017 | Notes on the Aesthetics of Artificial Intelligence, EPFL Lausanne |
-| &nbsp; |  |
-| | <h2>Workshops, Panels, and Events</h2> |
-| 2024 | Offert, F. & Ries, T. “Integrating Digital Humanities and German Studies – Methods, Theory, Practice.” Seminar at GSA 2024, Atlanta |
-| 2023 | Offert, F. “Computation and the Humanities.” Speaker Series at the UCSB Graduate Center for Literary Research |
-|  | Offert, F. & Phan, T. “The Politics and Aesthetics of Synthetic Media.” Panel Series at 4S 2023, Honolulu |
-|  | Offert, F. “Visual Artificial Intelligence.” Workshop at HSLU Lucerne |
-| 2022 | Offert, F. & Dhaliwal, R.S. “Towards New(er) Criticism: Artificial Intelligence and Literary Dispositions” and “GPGPU: Imaging as General Purpose Computing.” Panel Series at SLSA 2022, Purdue University |
-|  | Offert, F. & Impett, L. “CLIP and Beyond: Multimodal & Explainable Machine Learning in the Digital Humanities.” Panel at DH 2022, Tokyo |
-|  | Offert, F. “Visual Artificial Intelligence.” Workshop at HSLU Lucerne |
-|  | Offert, F. “Visual Artificial Intelligence for the Digital Humanities.” Workshop at the European Summer University in Digital Humanities, Leipzig |
-| 2021 | Offert, F. “Adversarial Examples.” Workshop at the Bundesministerium für Bildung und Forschung/Gesellschaft für Informatik KI-Camp, Berlin |
-| 2020 | Offert, F. “Face Recognition.” Workshop at HfG Karlsruhe |
-|  | Offert, F. “Images as Data. Visual Culture and Machine Learning.” Workshop at Hebrew University of Jerusalem |
-|  | Offert, F. “Adversarial Hacking.” Workshop at transmediale Berlin |
-| 2019 | Offert, F. “Images of Image Machines. Theory and Practice of Interpretable Machine Learning for the Digital Humanities.” Workshop at the European Summer University in Digital Humanities, Leipzig |
-| &nbsp; |  |
-| | <h2>Conference Talks</h2> |
-| 2024 | The Latent Space of the Digital Humanities: Embedded Knowledge and Disciplinary Convergence in the Age of Generative Artificial Intelligence, DH 2024, Washington D.C.  (accepted but not given) |
+| &nbsp; | &nbsp; |
+| &nbsp; | <h2>Conference Talks</h2> |
+| 2025 | Vector Media, University of Venice |
+|  | Are Some Things (Still) Unrepresentable?, MIT |
 | 2023 | The Production of (Embedding) Space, SLSA 2023, Phoenix |
 |  | A Sign That Spells: DALL-E 2, Invisual Images and The Racial Politics of Feature Space, 4S 2023, Honolulu |
 |  | On the Concept of History (in Foundation Models), GSA 2023, Montréal |
@@ -63,7 +73,7 @@
 |  | Kunstgeschichte und Computer Vision, Digitale Erfahrungen und Strategien in der Kunstgeschichte, Verband Deutscher Kunsthistoriker |
 |  | ‘A Painting of a Murder in the Style of Monet’. Applications and Limitations of Large-Scale Contrastive Pre-Training in Digital Visual Studies, Oxford University |
 |  | imgs.ai. A Fast, Dataset-Agnostic, Deep Visual Search for Digital Art History, Arbeitskreis Digitale Kunstgeschichte Open Space |
-|  | Generative Digital Humanities, CHR 2020, Amsterdam |
+| 2020 | Generative Digital Humanities, CHR 2020, Amsterdam |
 |  | Understanding Perceptual Bias in Machine Vision Systems, InfDH 2020, Karlsruhe |
 |  | Towards Open Computer Vision Methods. Visual Analytics of Machine Learning Models in the Digital Humanities, DH 2020, Ottawa (conference canceled) |
 |  | Critical Machine Vision. Eine Perspektive für die Digital Humanities, DHd 2020, Paderborn |
@@ -76,9 +86,10 @@
 |  | The Conservator’s Task. The Case for Programmable Logic Devices as a New Tool for the Preservation of Digital Art, Royal Holloway University of London |
 | 2015 | Conceptual Superposition. The Aesthetics of Quantum Simulation, SIGGRAPH Asia 2015, Kobe |
 |  | “Re-enactment as Pre-enactment. The State of Emergency and the Theatrical Contract in Artistic Practices of Reenactment,” UC Santa Barbara |
-| &nbsp; |  |
-| | <h2>Invited Responses</h2> |
-| 2024 | Respondent at: Computer Vision & Art History Today, Barnes Foundation, Philadelphia |
+| &nbsp; | &nbsp; |
+| &nbsp; | <h2>Invited Responses</h2> |  |
+| 2024 | Respondent at “Computer Vision & Art History Today,” Barnes Foundation, Philadelphia |
 | 2022 | Response to Todd Presner: “Digitizing, Remediating, Remixing, and Reinterpreting Holocaust Memory,” UC Santa Barbara |
+|  | Respondent at “Model Realities: On Simulationstechniken,” GSA 2022, Houston |
 |  | Response to Leonardo Impett: “Neural Vision Models as Models of Visual Culture,” Cambridge University |
 |  | Response to Alexandre Gefen: “Generative AI,” UC Santa Barbara |
