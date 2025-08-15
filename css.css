@@ -29,10 +29,10 @@ a {
   margin-left: 0.1ch;
   background: currentColor;
   vertical-align: -0.15em; /* nudge to align with baseline */
-  animation: caret-blink 1s steps(1, end) infinite;
+  animation: blink 1s steps(1, end) infinite;
 }
 
-@keyframes caret-blink { 50% { opacity: 0; } }
+@keyframes blink { 50% { opacity: 0; } }
 
 figcaption {
     font-size: 0.8em;
