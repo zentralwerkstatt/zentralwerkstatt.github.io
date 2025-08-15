@@ -4,11 +4,11 @@ body {
                  linear-gradient(0deg, rgba(100, 100, 100, 1), rgba(0, 0, 0, 0.6) 100%);
     mask-size: 3px 3px;
     font-weight: 200;
-    font-size: 1.2em;
+    font-size: 1.15em;
     line-height: 1.5;
     text-rendering: optimizeLegibility;
     font-family: 'Roboto Flex';
-    color: #ffffff;
+    color: white;
     text-shadow: 1px 0px 0px rgba(255, 255, 255, 0.1), 
                  -1px 0px 1px rgba(255, 255, 255, 1), 
                  1px 0px 5px rgba(200, 200, 200, 0.4), 
@@ -39,18 +39,23 @@ figcaption {
 }
 
 h1 {
-    font-size: 2.2em;
+    font-size: 2em;
     margin-bottom: 1em;
 }
 
 /* All headers styled the same except the highest */
 h2, h3, h4 { 
-    font-size: 1.4em;
+    font-size: 1.2em;
     margin-bottom: 1em;
 }
 
-.menu {
-    margin-bottom: -0.05em; /* Remove from li */
+/* Special rules for menu */
+.menu h2 {
+    margin-bottom: 0em;
+}
+
+.menu a {
+    color: white; 
 }
 
 /* Only used for big plus */
