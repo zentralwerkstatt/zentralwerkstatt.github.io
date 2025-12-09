@@ -58,6 +58,11 @@ h2, h3, h4 {
     color: white; 
 }
 
+/* Only used for intro */
+.large {
+    font-size: 1.2em;
+}
+
 /* Only used for big plus */
 .giant {
     font-size: 2.0em;
