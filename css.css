@@ -1,10 +1,16 @@
 body {
-    background-color: rgb(234, 234, 234);
+    background-color: rgb(220, 220, 220);
     font-weight: 400;
     font-size: 1.15em;
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
     color: black;
+    
+}
+
+.intro {
+    text-align: justify !important;
+    hyphens: auto;
 }
 
 a:not(.nohl) {
@@ -14,8 +20,8 @@ a:not(.nohl) {
     background: transparent;
     background-image: linear-gradient(
         to right,
-        rgba(255, 225, 0, 0.7) 10%,
-        rgba(255, 225, 0, 0.3)
+        rgba(0, 225, 0, 0.7) 10%,
+        rgba(0, 225, 0, 0.3)
     );
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone;
@@ -43,17 +49,15 @@ h1:not(.title) {
 
 h2, h3, h4 { 
     font-size: 1.2em;
-    margin-bottom: 1em;
+    margin-bottom: 0.4em;
+}
+
+.overimg {
+    margin-bottom: 0.2em;
 }
 
 .menu h2 {
     margin-bottom: 0em;
-}
-
-/* List-type sites, Google Docs -> Markdown */
-.page table {
-    border-collapse: separate; 
-    border-spacing: 0.3em;
 }
 
 .page td {
@@ -82,13 +86,21 @@ h2, h3, h4 {
     transform: translate(-50%, -50%);
 }
 
+.gs {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+.gs:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
+}
+
 /* Round transparent gradient mask */
 .masked {
     mask-image: radial-gradient(ellipse, black 50%, transparent 75%);
 }
 
-.padded {
-    padding-left: 3em;
-    padding-top: 1em;
-    padding-bottom: 1em;
+.rounded {
+    border-radius: 15px;
 }

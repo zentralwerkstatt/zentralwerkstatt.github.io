@@ -1,6 +1,6 @@
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |  |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |  |
 | :---- | :---- |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | <h2>Books/Monographs</h2> |  |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | <h2>Books/Monographs</h2> |  |
 | 2025 | Offert, F. and Impett, L. [*Vector Media*](https://www.upress.umn.edu/9781517921675/vector-media/). Meson Press/University of Minnesota Press (forthcoming) \[OA\] |
 | 2020 | Offert, F. [*Critical Machine Vision. Epistemology and Aesthetics of Deep CNNs*](https://www.proquest.com/docview/2404283034). Dissertation. University of California, Santa Barbara |
 | &nbsp; | &nbsp; |
@@ -50,7 +50,6 @@
 |  | Breitling, D. “[Latent Deep Space](https://soundcloud.com/diffractionscollective/latent-deep-space-wfabien-offert).” Interview for *Diffractions Collective* |
 | 2022 | Offert, F. “[Ten Years of Image Synthesis](https://zentralwerkstatt.org/blog/ten-years-of-image-synthesis).” *zentralwerkstatt.org* – featured on *Hacker News* front page |
 | 2020 | Tasoff, H. “[Peering Inside the Black Box](https://news.ucsb.edu/2020/019779/peering-inside-black-box).” Interview for *UCSB Current* |
-|  | Offert, F. “[There Is No (Real Life) Use Case for Face Super Resolution](https://zentralwerkstatt.org/blog.html?q=pulse).” *zentralwerkstatt.org* |
 | 2019 | Offert, F. “[The Past, Present, and Future of AI Art](https://thegradient.pub/the-past-present-and-future-of-ai-art/).” *The Gradient* |
 |  | Offert, F. “[What Could an Artificial Intelligence Theater Be?](https://zentralwerkstatt.org/blog/theater)” *zentralwerkstatt.org. –* [translated into Cantonese](https://artismonline.hk/issues/2023-06/574) for *Artism* |
 | 2018 | Offert, F., Roland, T. & Cornell, D. “[Word Embeddings for Restricted Access Corpora](https://we1s.ucsb.edu/research_post/word-embeddings-for-restricted-access-corpora/).” *WE1S Research Blog* |
