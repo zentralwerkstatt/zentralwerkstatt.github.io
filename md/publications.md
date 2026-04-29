@@ -1,7 +1,7 @@
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |  |
 | :---- | :---- |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | <h2>Books/Monographs</h2> |  |
-| 2025 | Offert, F. and Impett, L. [*Vector Media*](https://www.upress.umn.edu/9781517921675/vector-media/). Meson Press/University of Minnesota Press (forthcoming) \[OA\] |
+| 2026 | Offert, F. and Impett, L. [*Vector Media*](https://www.upress.umn.edu/9781517921675/vector-media/). Meson Press/University of Minnesota Press \[OA\] |
 | 2020 | Offert, F. [*Critical Machine Vision. Epistemology and Aesthetics of Deep CNNs*](https://www.proquest.com/docview/2404283034). Dissertation. University of California, Santa Barbara |
 | &nbsp; | &nbsp; |
 | &nbsp; | <h2>Journal Articles</h2> |
