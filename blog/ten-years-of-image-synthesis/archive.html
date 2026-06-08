@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ten Years of Image Synthesis — Fabian Offert</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: 500;
+      font-size: 17px;
+      line-height: 1.65;
+      background: #fff;
+      color: #000;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a { color: inherit; }
+
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 3rem 4vw;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      line-height: 1.1;
+      margin: 0 0 0.6rem;
+    }
+
+    .blog-meta {
+      font-size: 0.82rem;
+      color: #888;
+      margin-bottom: 3rem;
+    }
+    .blog-meta a { color: inherit; }
+
+    .content h4 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      margin: 2.5rem 0 1rem;
+      letter-spacing: 0.01em;
+    }
+    .content p {
+      margin: 0 0 1.3em;
+    }
+    .content ul {
+      margin: 0 0 1.3em 1.5em;
+      padding: 0;
+    }
+    .content li {
+      margin-bottom: 0.6em;
+    }
+    .content hr {
+      border: none;
+      border-top: 1px solid #e0e0e0;
+      margin: 3rem 0;
+    }
+    .content a {
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+
+    figure {
+      margin: 0;
+    }
+    figcaption {
+      font-size: 0.78rem;
+      line-height: 1.5;
+      color: #666;
+      margin-top: 0.5rem;
+    }
+    figcaption a { color: inherit; }
+
+    .img-full {
+      margin: 2rem 0;
+    }
+    .img-full img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .img-float-left {
+      float: left;
+      width: 38%;
+      margin: 0.3rem 2rem 1.5rem 0;
+    }
+    .img-float-left img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .img-float-right {
+      float: right;
+      width: 42%;
+      margin: 0.3rem 0 1.5rem 2rem;
+    }
+    .img-float-right img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .clearfix::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    @media (max-width: 640px) {
+      h1 { font-size: 1.8rem; }
+      .img-float-left, .img-float-right {
+        float: none;
+        width: 100%;
+        margin: 1.5rem 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <main>
+    <article>
+      <h1>Ten Years of Image Synthesis</h1>
+      <div class="blog-meta">
+        Nov 10, 2022 &middot; Written by Fabian Offert</a>
+      </div>
+
+      <div class="content">
+
+        <p>It's the end of 2022. Deep learning models have become so good at generating images that, at this point, it is more than clear that they are here to stay. How did we end up here? The timeline below traces some milestones – papers, architectures, models, datasets, experiments – starting from the beginning of the current "AI summer" ten years ago.</p>
+
+        <p><em>Edit: Since this post was on the front page of Hacker News I have received a few interesting pointers regarding the "pre-history" of image synthesis:</em></p>
+
+        <ul>
+          <li><em>Someone in the Hacker News comments pointed out that Hinton et al.'s deep belief nets were used to generate synthetic MNIST digits already in 2006, see <a href="https://www.cs.toronto.edu/~hinton/absps/fastnc.pdf">A fast learning algorithm for deep belief nets</a> (animations can be found <a href="https://www.cs.toronto.edu/~hinton/digits.html">here</a>).</em></li>
+          <li><em>Durk Kingma brought to my attention that variational autoencoders (VAEs) slightly precede GANs, see <a href="https://arxiv.org/pdf/1312.6114.pdf">Auto-Encoding Variational Bayes</a> and <a href="https://www.youtube.com/watch?v=nHX7hCeOtFc">these early results</a> on the <a href="http://vis-www.cs.umass.edu/lfw/">Labeled Faces in the Wild</a> dataset.</em></li>
+          <li><em>@Merzmensch on Twitter emphasized the significance of DeepDream, which could be regarded as a proto-generative approach, for the artistic side of image synthesis. See <a href="https://research.googleblog.com/2015/06/inceptionism-going-deeper-into-neural.html">Inceptionism: Going deeper into neural networks</a>.</em></li>
+        </ul>
+
+        <hr>
+
+        <h4>The Beginnings (2012–2015)</h4>
+
+        <p>Once it was clear that deep neural networks would revolutionize image classification, researchers started to explore the 'opposite' direction: what if we could use some of the same techniques that work so well for classification (e.g. convolutional layers) to make images?</p>
+
+        <div class="clearfix">
+          <figure class="img-float-left">
+            <img src="./img/Screen+Shot+2022-04-28+at+8.52.57+AM.png" alt="GAN-generated faces from Goodfellow et al. 2014" width="184" height="184">
+            <figcaption>Hello world! Sample of GAN-generated faces from Goodfellow et al.'s 2014 paper. The model was trained on the Toronto Faces dataset, which since has been removed from the web.</figcaption>
+          </figure>
+
+          <p><strong>Dec 2012</strong>: Beginning of the current "AI summer". Publication of <a href="https://proceedings.neurips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf">ImageNet classification with deep convolutional neural networks</a> which, for the first time, brings together deep convolutional neural networks (CNNs), GPUs, and very large, Internet-sourced datasets (<a href="https://www.image-net.org/">ImageNet</a>).</p>
+
+          <p><strong>Dec 2014</strong>: Ian Goodfellow et al. publish <a href="https://proceedings.neurips.cc/paper/2014/file/5ca3e9b122f61f8f06494c97b1afccf3-Paper.pdf">Generative adversarial nets</a>. The GAN is the first modern (i.e. post-2012) neural network architecture dedicated to image synthesis, rather than analysis.* It introduces a unique approach to learning based on game theory, where two subnetworks, a "generator" and a "discriminator" compete. Eventually, only the "generator" is kept from the system and used for image synthesis.</p>
+
+          <p><strong>Nov. 2015</strong>: Publication of <a href="https://arxiv.org/pdf/1511.06434.pdf">Unsupervised representation learning with deep convolutional generative adversarial networks</a>, which describes the first practically usable GAN architecture (DCGAN). The paper also brought up the question of latent space manipulation for the first time – do concepts map to latent space directions?</p>
+
+          <p>*Please see comment at the top.</p>
+        </div>
+
+        <hr>
+
+        <h4>Five Years of GANs (2015–2020)</h4>
+
+        <div class="clearfix">
+          <figure class="img-float-right">
+            <img src="./img/03_Memories_of_Passersby_I©_Mario_Klingemann_Courtesy_Onkaos-scaled.jpg" alt="Mario Klingemann, Memories of Passerby I, 2018" width="1672" height="2560">
+            <figcaption>Mario Klingenmann, <em>Memories of Passerby I,</em> 2018. The baconesque faces are typical for the AI art of this area, where the non-photorealism of generative models is the focus of artistic exploration.</figcaption>
+          </figure>
+
+          <p>GANs are applied to various image manipulation tasks, e.g. style transfer, inpainting, denoising, and superresolution. GAN architecture papers <a href="https://github.com/nightrome/really-awesome-gan">explode</a>. At the same time, artistic experimentation with GANs takes off and first works by Mike Tyka, Mario Klingenmann, Anna Ridler, Helena Sarin, and others appear. The first <a href="https://www.theverge.com/2018/10/23/18013190/ai-art-portrait-auction-christies-belamy-obvious-robbie-barrat-gans">"AI art" scandal</a> takes place in 2018. At the same time, the transformer architecture revolutionizes NLP – with significant consequences for image synthesis in the immediate future.</p>
+
+          <p><strong>Jun 2017</strong>: Publication of <a href="https://arxiv.org/pdf/1706.03762.pdf">Attention is all you need</a> (see also <a href="https://daleonai.com/transformers-explained">this great explainer</a>). The transformer architecture (in the form of pre-trained models like BERT) revolutionizes the field of natural language processing (NLP).</p>
+
+          <p><strong>Jul 2018</strong>: Publication of <a href="https://aclanthology.org/P18-1238.pdf">Conceptual captions: A cleaned, hypernymed, image alt-text dataset for automatic image captioning</a>. This and other multimodal datasets will become extremely important for models like CLIP and DALL-E.</p>
+        </div>
+
+        <div class="clearfix">
+          <figure class="img-float-left">
+            <img src="./img/pasted-image.jpg" alt="Face from thispersondoesnotexist.com" width="1024" height="1024">
+            <figcaption>Face from <a href="https://thispersondoesnotexist.com/">thispersondoesnotexist.com</a>. The quality of late 2010s GAN architectures is evaluated mainly on aligned face images, with limited success for more heterogeneous datasets. In both academic/industry and artistic experiments, faces thus remain an important reference point.</figcaption>
+          </figure>
+
+          <p><strong>2018–20</strong>: Series of radical improvements of the GAN architecture by researchers at NVIDIA (StyleGAN, latest: StyleGAN2-ada, introduced in <a href="https://arxiv.org/pdf/2006.06676.pdf">Training generative adversarial networks with limited data</a>). For the first time, GAN-generated images become indistinguishable from natural images, at least for highly optimized datasets like <a href="https://github.com/NVlabs/ffhq-dataset">Flickr-Faces-HQ (FFHQ)</a>.</p>
+
+          <p><strong>May 2020</strong>: Publication of <a href="https://arxiv.org/pdf/2005.14165.pdf">Language models are few-shot learners</a>. OpenAI's LLM Generative Pre-trained Transformer 3 (GPT-3) shows the power of the transformer architecture.</p>
+
+          <p><strong>Dec 2020</strong>: Publication of <a href="https://arxiv.org/pdf/2012.09841.pdf">Taming transformers for high-resolution image synthesis</a> (see also the <a href="https://compvis.github.io/taming-transformers/">project website</a>). Vision transformers (ViTs) show that the transformer architecture can be used for images. The approach presented in the paper, VQGAN, produces SOTA results on benchmarks.</p>
+        </div>
+
+        <hr>
+
+        <h4>The Age of Transformers (2020–2022)</h4>
+
+        <p>The transformer architecture revolutionizes image synthesis, initiating a move away from GANs. 'Multimodal' deep learning consolidates techniques from NLP and computer vision, and 'prompt engineering' replaces model training and tuning as <em>the</em> artistic approach to image synthesis.</p>
+
+        <figure class="img-full">
+          <img src="./img/Screen+Shot+2022-07-14+at+8.27.09+AM.png" alt="CLIP architecture diagram" width="2552" height="942">
+          <figcaption>CLIP architecture from <a href="https://arxiv.org/pdf/2103.00020.pdf">Learning transferable visual models from natural language supervision</a>. Arguably, the current image synthesis boom is facilitated by the multimodal capabilities first introduced with CLIP.</figcaption>
+        </figure>
+
+        <div class="clearfix">
+          <figure class="img-float-right">
+            <img src="./img/DALL·E+2022-11-10+11.49.58+-+Portrait+photograph+of+a+blonde+woman,+taken+with+a+DSLR+camera,+neutral+background,+high+resolution.png" alt="DALL-E 2 portrait of a blonde woman" width="1024" height="1024">
+            <figcaption>"Portrait photograph of a blonde woman, taken with a DSLR camera, neutral background, high resolution", generated with DALL-E 2. Transformer-based generative models match the photorealism of later GAN-architectures like StyleGAN 2 but allow to create a wide variety of themes and motifs.</figcaption>
+          </figure>
+
+          <p><strong>Jan 2021</strong>: Publication of <a href="https://arxiv.org/pdf/2102.12092.pdf">Zero-shot text-to-image generation</a> (see also <a href="https://openai.com/blog/dall-e/">OpenAI's blog post</a>) which introduces the first version of DALL-E. This version works by combining text and images (compressed into "tokens" by a VAE) in a single data stream. The model simply "continues" the "sentence". Data (250M images) includes text-image pairs from Wikipedia, <a href="https://aclanthology.org/P18-1238.pdf">Conceptual Captions</a>, and a filtered subset of <a href="http://projects.dfki.uni-kl.de/yfcc100m/">YFCM100M</a>. CLIP lays the foundation for the 'multimodal' approach to image synthesis.</p>
+
+          <p><strong>Jan 2021</strong>: Publication of <a href="https://arxiv.org/pdf/2103.00020.pdf">Learning transferable visual models from natural language supervision</a> (see also <a href="https://openai.com/blog/clip/">OpenAI's blog post</a>) which introduces CLIP, a multimodal model that is a combination of vision transformer and regular transformer. CLIP learns a "shared latent space" for images and captions and can thus label images. Trained on numerable datasets listed in appendix A.1 of the paper.</p>
+        </div>
+
+        <div class="clearfix">
+          <figure class="img-float-left">
+            <img src="./img/DALL·E+2022-11-10+11.47.55+-+Do+you+know+why+I+stopped+you+today_.png" alt="DALL-E 2 image for the prompt 'Do you know why I stopped you today?'" width="1024" height="1024">
+            <figcaption>DALL-E 2 image for the prompt "Do you know why I stopped you today?". The art of 'prompt engineering' has since become the main approach to artistic image synthesis.</figcaption>
+          </figure>
+
+          <p><strong>Jun 2021</strong>: Publication of <a href="https://arxiv.org/abs/2105.05233">Diffusion models beat GANs on image synthesis</a>. Diffusion models introduce an approach to image synthesis different from the GAN approach. They learn by reconstructing images from artificially added noise ("denoising"); they are related to variational autoencoders (VAEs), see also <a href="https://benanne.github.io/2022/01/31/diffusion.html">this explainer</a>.</p>
+
+          <p><strong>Jul 2021</strong>: Release of <a href="https://huggingface.co/spaces/dalle-mini/dalle-mini">DALL-E mini</a>, a replication of DALL-E (smaller and with few adjustments to architecture and data, see <a href="https://wandb.ai/dalle-mini/dalle-mini/reports/DALL-E-Mini-Explained-with-Demo--Vmlldzo4NjIxODA">technical report</a>). Data includes <a href="https://arxiv.org/pdf/2102.08981.pdf">Conceptual 12M</a>, <a href="https://aclanthology.org/P18-1238.pdf">Conceptual Captions</a>, and the same filtered subset of <a href="http://projects.dfki.uni-kl.de/yfcc100m/">YFCM100M</a> that OpenAI uses for the original DALL-E model. The absence of any content filters or API restrictions provided significant potential for creative exploration and led to an explosion of <a href="https://twitter.com/weirddalle">'weird DALL-E' images on Twitter</a>.</p>
+
+          <p><strong>2021–2022</strong>: Katherine Crowson publishes a series of CoLab notebooks exploring ways to make CLIP guide generative models, e.g. 512x512 <a href="https://colab.research.google.com/drive/1V66mUeJbXrTuQITvJunvnWVn96FEbSI3">CLIP-guided diffusion</a> and <a href="https://colab.research.google.com/github/justinjohn0306/VQGAN-CLIP/blob/main/VQGAN%2BCLIP(Updated).ipynb">VQGAN-CLIP</a> (<a href="https://arxiv.org/pdf/2204.08583.pdf">Open domain image generation and editing with natural language guidance</a>, only published as preprint in 2022 but public experiments appeared as soon as VQGAN was released). Like in the early GAN days, artists and hackers develop significant improvements to existing architectures with very limited means which are then streamlined by corporations and commercialized by "startups" like wombo.ai.</p>
+
+          <p><strong>Apr 2022</strong>: Publication of <a href="https://arxiv.org/pdf/2204.06125.pdf">Hierarchical text-conditional image generation with CLIP latents</a> (see also <a href="https://openai.com/dall-e-2/">OpenAI's blog post</a>). The paper introduces DALL-E 2, which builds upon GLIDE (<a href="https://arxiv.org/pdf/2112.10741.pdf">GLIDE: Towards photorealistic image generation and editing with text-guided diffusion models</a>) released only a few weeks earlier. At the same time, renewed interest in DALL-E mini due to restricted access to, and intentional <a href="https://github.com/openai/dalle-2-preview/blob/main/system-card.md">limitations</a> of, DALL-E 2. Data consists of "a combination of publicly available sources and sources that we licensed", according to the model card, and of the full CLIP and DALL-E (see above for both) datasets according to the paper.</p>
+
+          <p><strong>May/June 2022</strong>: Publication of <a href="https://arxiv.org/pdf/2205.11487.pdf">Photorealistic text-to-image diffusion models with deep language understanding</a> and <a href="https://arxiv.org/pdf/2206.10789.pdf">Scaling Autoregressive Models for Content-Rich Text-to-Image Generation</a> which introduce Imagegen and Parti, Google's answers to DALL-E 2.</p>
+        </div>
+
+        <hr>
+
+        <h4>AI as Photoshop (2022–today)</h4>
+
+        <p>While DALL-E 2 set a new standard for image models, its immediate commercialization and many restrictions meant that creative uses were limited from the start. While DALL-E 2 was already released, users thus continued to experiment with smaller models like DALL-E mini. All of this changes with the release of Stable Diffusion, which arguably marks the beginning of the 'Photoshop era' of image synthesis.</p>
+
+        <figure class="img-full">
+          <img src="./img/pasted-image-2.jpg" alt="Six variations of a still life with grapes generated by Stable Diffusion" width="1536" height="1024">
+          <figcaption>"Still Life with four Bunches of Grapes, an attempt at creating life-like grapes like those of the ancient painter Zeuxis, Juan El Labrador Fernandez, 1636, Prado, Madrid", six variations generated by Stable Diffusion</figcaption>
+        </figure>
+
+        <p><strong>August 2022</strong>: Stability.ai <a href="https://stability.ai/blog/stable-diffusion-public-release">releases</a> Stable Diffusion (<a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.pdf">High-resolution image synthesis with latent diffusion models</a>, see also the unusually comprehensive <a href="https://en.wikipedia.org/wiki/Stable_Diffusion">Wikipedia page</a>), a model that enables photorealism on par with DALL-E 2. Other than DALL-E 2, the model is available to the public almost immediately and can be run within CoLab and on the Huggingface platform.</p>
+
+        <p><strong>August 2022</strong>: Google's DreamBooth (<a href="https://arxiv.org/pdf/2208.12242.pdf">DreamBooth: Fine tuning text-to-image diffusion models for subject-driven generation</a>) provides increasingly fine-grained control of diffusion models. Even without such additional technical interventions, however, it has become feasible to <a href="https://andys.page/posts/how-to-draw/">use generative models like Photoshop</a>, starting from a rough sketch and adding generated modifications layer by layer.</p>
+
+        <p><strong>October 2022</strong>: Shutterstock, one of the largest stock photo companies, <a href="https://www.shutterstock.com/press/20435">announces a collaboration with OpenAI to offer/license generated images</a>, anticipating that the market for stock photos will be heavily impacted by generative models like Stable Diffusion.</p>
+
+      </div>
+    </article>
+
+  </main>
+
+</body>
+</html>
