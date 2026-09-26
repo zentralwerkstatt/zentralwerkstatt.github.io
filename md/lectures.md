@@ -1,6 +1,12 @@
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |  |
 | :---- | :---- |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | <h2>Invited Talks</h2> |
+| 2026 | The Two Cultures of Artificial Intelligence (keynote), UT Austin |
+|  | [Vector Media](https://www.youtube.com/watch?v=F9W8zofKkwc), New York University |
+|  | Machine Learning as Humanities Epistemology?, Bibliotheca Hertziana – Max Planck Institute for Art History, Rome |
+|  | Vector Media, Emory University |
+|  | Vector Media, University of Amsterdam |
+|  | The Two Cultures of Artificial Intelligence, San Diego State University |
 | 2025 | The Method of Critical AI Studies (keynote), Bielefeld University |
 |  | [Noise Is Dead](https://www.youtube.com/watch?v=Op-zm9tQ0n4), AusSTS 2025, Melbourne (keynote) |
 |  | Vector Media, Ca' Foscari University, Venice |
@@ -42,6 +48,7 @@
 | 2017 | Notes on the Aesthetics of Artificial Intelligence, EPFL Lausanne |
 | &nbsp; | &nbsp; |
 | &nbsp; | <h2>Conference Talks</h2> |
+| 2026 | Are Some Things (Still) Unrepresentable?, AHA Chicago |
 | 2025 | Vector Media, University of Venice |
 |  | Are Some Things (Still) Unrepresentable?, MIT |
 | 2023 | The Production of (Embedding) Space, SLSA 2023, Phoenix |
